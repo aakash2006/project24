@@ -40,6 +40,6 @@ drawSprites();
 }
 function keyPressed(){
 	if(keyCode === UP_ARROW){
-		Matter.Body.applyForce(paper.body, paper.body.position,{x:18,y:-18});
+		Matter.Body.applyForce(paper.body, paper.body.position,{x:16,y:-16});
 	}
 }
